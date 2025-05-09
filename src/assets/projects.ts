@@ -21,7 +21,7 @@ const projects: any = [
     "category": "Dev tool",
     "description": "Coupled with the REnthub to deploy files from the code itself. And published the files to the BTFS.",
     "downloadLink": "https://github.com/thefrontlabs/homepage/blob/main/public/sdk.png?raw=true",
-    "imagePath": "/images/dhost-logo.png"
+    "imagePath": "https://github.com/thefrontlabs/homepage/blob/main/public/sdk.png?raw=true"
     }
 ]
 export default projects;

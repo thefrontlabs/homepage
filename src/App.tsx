@@ -117,11 +117,11 @@ const P2PLabsPage = () => {
               {projects.map((project: any) => (
                 <Card key={project.id} className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
                   <div className="bg-sky-50 p-6 flex justify-center items-center h-48">
-                    <div className="w-32 h-32 relative">
+                    <div className="w-full h-full relative">
                       <img 
                         src={project.imagePath} 
                         alt={`${project.name} logo`}
-                        className="object-contain w-full h-full"
+                        className="absolute inset-0 w-full h-full object-cover"
                       />
                     </div>
                   </div>
