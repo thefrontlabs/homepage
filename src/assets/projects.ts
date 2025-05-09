@@ -1,29 +1,26 @@
 const projects: any = [
     {
     "id": 1,
-    "name": "Peersky Browser",
-    "category": "Infrastructure",
-    "description": "A Minimal Local-First P2P Web Browser: Access, Communicate, and Publish Offline",
-    "link": "https://example.com/peersky",
-    "downloadLink": "https://example.com/download-peersky",
+    "name": "Renthub-BTFS",
+    "category": "Publishing",
+    "description": "A Wrapper to ease the dev to publish files on BTFS. Making the hassel of running the node and setting up the environment a thing of the past.",
+    "downloadLink": "https://docs.renthub.cloud",
     "imagePath": "https://media.licdn.com/dms/image/v2/D4E0BAQGyxyHYhKt1Vg/company-logo_200_200/company-logo_200_200/0/1721290569642/anything_world_logo?e=2147483647&v=beta&t=ENbo6NO6M3TspbHaD2LjV0GNfM7Fgm3U51lRNgl70Ic"
     },
     {
     "id": 2,
-    "name": "DScan",
-    "category": "Publishing",
-    "description": "A decentralized storage and file-sharing tool that uploads content to IPFS and generates decentralized QR codes.",
-    "link": "https://example.com/dscan",
-    "downloadLink": "https://chrome.google.com/webstore",
+    "name": "Codehive",
+    "category": "Engagement",
+    "description": "A decentralized Coding platform that incentivises crypto for faster codes and higher solverates.",
+    "downloadLink": "https://thecodehive.online",
     "imagePath": "/images/dscan-logo.png"
     },
     {
     "id": 3,
-    "name": "DHost",
+    "name": "Renthub-SDK",
     "category": "Dev tool",
-    "description": "DHost is a vscode extension that publishes static websites to IPFS.",
-    "link": "https://example.com/dhost",
-    "downloadLink": "https://marketplace.visualstudio.com",
+    "description": "Coupled with the REnthub to deploy files from the code itself. And published the files to the BTFS.",
+    "downloadLink": "https://www.npmjs.com/package/@ellumina/renthub-btfs",
     "imagePath": "/images/dhost-logo.png"
     }
 ]

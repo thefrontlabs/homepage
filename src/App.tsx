@@ -38,33 +38,30 @@ const P2PLabsPage = () => {
                   <path d="M14 14v8h8v-8h-8z" />
                 </svg>
               </div>
-              <h1 className="text-2xl font-medium">P2P Labs</h1>
+              <h1 className="text-2xl font-medium">Front Labs</h1>
               <div className="ml-auto">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-black">
+                <a href="https://github.com/thefrontlabs" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-black ">
                   <Github size={24} />
                 </a>
               </div>
             </div>
             
-            <h2 className="text-4xl font-bold mb-6 text-gray-800">Powering the Decentralized Web</h2>
+            <h2 className="text-4xl font-bold mb-6 text-gray-800">Building Real-World Blockchain Use Cases Through Experimentation and Innovation.</h2>
             
             <p className="text-gray-700 mb-3">
-              At P2P Labs, we're building curated infrastructure tools for the decentralized web, based on
-              p2p protocols.
+              At Front Labs, We are building Real-World Blockchain Use Cases Through Experimentation and Innovation.
             </p>
             
             <p className="text-gray-700 mb-3">
-              One of the most significant benefits of decentralization is the transformation towards
-              seamless data accessibility from anywhere, primarily driven by the advancements in peer-to-
-              peer technologies and decentralized storage solutions.
+            We are a research-driven lab exploring and creating practical applications within the blockchain space. With hands-on experience working across networks like TRON, BTTC, and beyond, we focus on identifying gaps, solving core problems, and prototyping new ideas that push the boundaries of what's possible. With active projects underway and more on the horizon, we're committed to turning experimentation into impact.
             </p>
             
             <p className="text-gray-700 font-medium mb-6">
-              Our vision is to ensure that users owners can access information as extensively as possible from anywhere in the world.
+            "Pioneering the future of decentralized technology through hands-on innovation and real-world impact."
             </p>
             
             <p className="text-gray-700">
-              Join our Matrix community <a href="https://p2plabs.xyz:matrix.org" className="text-blue-600 hover:underline">@p2plabs.xyz:matrix.org</a> or connect with us on <a href="#" className="text-blue-600 hover:underline">Discord</a>.
+              Join our community <a href="https://forum.trondao.org/c/tbl/" className="text-blue-600 hover:underline">Tron Forum</a>
             </p>
           </div>
           
@@ -101,10 +98,10 @@ const P2PLabsPage = () => {
         <div className="mb-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
             <h2 className="text-3xl font-bold text-gray-800">Projects</h2>
-            <p className="text-gray-600 max-w-lg">
+            {/* <p className="text-gray-600 max-w-lg">
               Use our services from the following links. Our software is open-sourced. 
               So you can read it, fork it, and improve it!
-            </p>
+            </p> */}
           </div>
           
           {loading ? (
@@ -146,11 +143,7 @@ const P2PLabsPage = () => {
                     >
                       <a href={project.downloadLink} target="_blank" rel="noopener noreferrer">
                         <ExternalLink size={16} />
-                        {project.name === "Peersky Browser" 
-                          ? "Download for desktop" 
-                          : project.name === "DScan" 
-                            ? "Chrome Web Store" 
-                            : "VSCode Marketplace"}
+                        Checkout
                       </a>
                     </Button>
                   </CardFooter>
