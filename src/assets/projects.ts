@@ -13,7 +13,7 @@ const projects: any = [
     "category": "Engagement",
     "description": "A decentralized Coding platform that incentivises crypto for faster codes and higher solverates.",
     "downloadLink": "https://thecodehive.online",
-    "imagePath": "https://raw.githubusercontent.com/thefrontlabs/homepage/refs/heads/main/public/codehive.jpg"
+    "imagePath": "https://github.com/thefrontlabs/homepage/blob/main/public/codehive.jpg?raw=true"
     },
     {
     "id": 3,
