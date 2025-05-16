@@ -1,6 +1,6 @@
 {
   "name": "frontlabs-home-page",
-  "homepage": "https://thefrontlabs.github.io",
+  // "homepage": "https://thefrontlabs.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
