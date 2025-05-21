@@ -1,5 +1,19 @@
 const projects: any = [
     {
+    "id": 4,
+    "name": "Zap",
+    "category": "Dev-tool",
+    "description": "A browser to embrase the identity of btfs and fully expose the capabilites of the btfs.",
+    "downloadLink": "http://zap.frontlabs.cloud/",
+    "imagePath": "https://github.com/thefrontlabs/Zap/blob/main/Page/src/assets/grad-back-zap.png?raw=true"
+    }, {
+    "id": 5,
+    "name": "Pegasus-Pay",
+    "category": "Infrastructure",
+    "description": "The very first payement-gateway fro the Tron, So that the Dapps can integrate to utilise the crypto transfers tech easiely and hasel-free",
+    "downloadLink": "http://pegasuspay.frontlabs.cloud/",
+    "imagePath": "https://github.com/thefrontlabs/PegasusPay/blob/main/src/assets/toppanael.png?raw=true"
+    },{
     "id": 1,
     "name": "Renthub-BTFS",
     "category": "Publishing",
